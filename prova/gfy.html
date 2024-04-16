@@ -4,46 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz de Planejamento de Carreira</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2; /* Cor de fundo cinza claro */
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            text-align: center;
-            color: #3eb2cf; /* Cor verde */
-        }
-        button {
-            background-color: #267679; /* Cor azul */
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            display: block;
-            margin: 20px auto;
-        }
-        button:hover {
-            background-color: #45a049; /* Cor verde escura quando hover */
-        }
-        .question {
-            margin-bottom: 20px;
-        }
-        .options {
-            list-style-type: none;
-            padding: 0;
-        }
-        .options li {
-            margin-bottom: 10px;
-        }
-        #result {
-            text-align: center;
-            margin-top: 20px;
-            color: #4CAF50; /* Cor verde */
-        }
-    </style>
+    <link rel="stylesheet" href="css/gfy.css">
 </head>
 <body>
     <h1>Quiz de Planejamento de Carreira</h1>
@@ -75,31 +36,8 @@
         <button onclick="submitQuiz()">Submit</button>
     </div>
 
+    <script src="javascript/gfy.js"></script>
     <div id="result"></div>
-
-    <script>
-        function submitQuiz() {
-            const q1 = document.querySelector('input[name="q1"]:checked').value;
-            const q2 = document.querySelector('input[name="q2"]:checked').value;
-            const q3 = document.querySelector('input[name="q3"]:checked').value;
-
-            let result = '';
-
-            if (q1 === 'a' && q2 === 'a' && q3 === 'a') {
-                result = 'Desenvolvedor de Software';
-            } else if (q1 === 'b' && q2 === 'b' && q3 === 'b') {
-                result = 'Médico';
-            } else if (q1 === 'c' && q2 === 'c' && q3 === 'c') {
-                result = 'Professor';
-            } else if (q1 === 'd' && q2 === 'd' && q3 === 'd') {
-                result = 'Empreendedor';
-            } else {
-                result = 'Engenharia ';
-            }
-
-            document.getElementById('result').innerText = 'A carreira recomendada para você é:  ' + result;
-        }
-    </script>
 </body>
 </html>
 
