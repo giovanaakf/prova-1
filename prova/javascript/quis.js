@@ -23,7 +23,8 @@ function EnviarRespostaQuiz() {
   } else if (q1Value === 'd' && q2Value === 'd' && q3Value === 'a') {
             result = 'Gerente';
 
-
+   } else if (q1Value === 'b' && q2Value === 'd' && q3Value === 'b') {
+            result = 'Enfermagem ';
 
    } else if (q1Value === 'b' && q2Value === 'a' && q3Value === 'c') {
             result = 'técnico de assistência médica digital';
@@ -41,12 +42,18 @@ function EnviarRespostaQuiz() {
  
  } else if (q1Value === 'd' && q2Value === 'c' && q3Value === 'b') {
             result = 'Publicidade e Propaganda'; 
+
+} else if (q1Value === 'c' && q2Value === 'a' && q3Value === 'c') {
+      result = 'professor de ciências da computação';          
             
  } else if (q1Value === 'c' && q2Value === 'd' && q3Value === 'b') {
             result = 'Biologia';            
             
  } else if (q1Value === 'd' && q2Value === 'c' && q3Value === 'd') {
-            result = 'Publicidade e Propaganda';                
+            result = 'Publicidade e Propaganda';  
+        
+    } else if (q1Value === 'd' && q2Value === 'a' && q3Value === 'd') {
+                result = 'Engenharia';               
 
   } else if (q1Value === 'b' && q2Value === 'd' && q3Value === 'a') {
             result = 'Enfermagem';
@@ -126,6 +133,13 @@ function EnviarRespostaQuiz() {
         
    } else if (q1Value === 'd' && q2Value === 'b' && q3Value === 'd') {
     result = ' Marketing';
+  
+} else if (q1Value === 'a' && q2Value === 'b' && q3Value === 'b') {
+    result = 'Engenharia de Software';
+
+
+} else if (q1Value === 'a' && q2Value === 'b' && q3Value === 'a') {
+    result = ' Engenharia de Software';
  
 } else if (q1Value === 'b' && q2Value === 'c' && q3Value === 'c') {
             result = 'Enfermagem';
@@ -153,7 +167,10 @@ function EnviarRespostaQuiz() {
         result = 'Desenvolvedor de Software';
         
     } else if (q1Value === 'a' && q2Value === 'd' && q3Value === 'c') {
-        result = 'Desenvolvedor de Software';       
+        result = 'Desenvolvedor de Software';
+        
+    } else if (q1Value === 'd' && q2Value === 'a' && q3Value === 'b') {
+        result = 'Psicologia';
         
     
 
