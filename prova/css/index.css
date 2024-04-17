@@ -1,5 +1,5 @@
         body {
-            background-color: #cfd8d8; /* rosa claro */
+            background-color: #f4ffff; /* rosa claro */
             color: #004225; /* verde escuro */
             font-family: Arial, sans-serif;
             margin: 0;
@@ -7,7 +7,7 @@
         }
 
         header {
-            background-color: #73bac7; /* rosa claro */
+            background-color: #b4f6ff; /* rosa claro */
             padding: 20px;
         }
 
@@ -32,7 +32,7 @@
         }
 
         footer {
-            background-color: #3d6f7c; /* rosa claro */
+            background-color: #d4feff; /* rosa claro */
             padding: 20px;
             text-align: center;
         }

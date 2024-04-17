@@ -6,7 +6,7 @@
         }
         h1 {
             text-align: center;
-            color: #3eb2cf; /* Cor verde */
+            color: #0c2225; /* Cor verde */
         }
         button {
             background-color: #267679; /* Cor azul */
@@ -19,7 +19,7 @@
             margin: 20px auto;
         }
         button:hover {
-            background-color: #45a049; /* Cor verde escura quando hover */
+            background-color: #3cc4c9; /* Cor verde escura quando hover */
         }
         .question {
             margin-bottom: 20px;
@@ -34,5 +34,5 @@
         #result {
             text-align: center;
             margin-top: 20px;
-            color: #4CAF50; /* Cor verde */
+            color: #033349; /* Cor verde */
         }
